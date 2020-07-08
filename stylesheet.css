@@ -1,0 +1,437 @@
+
+.name{
+    margin-bottom: 150px;
+}
+.iconame{
+    padding-top:10px;
+    text-align: center;
+}
+.iconame img{
+    width:2%;
+}
+.iconame a{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left:5px;
+
+}
+.iconame a:hover{
+    color:red;
+}
+.iconame span{
+    color:orangered;
+}
+.description{
+    text-align:center;
+    color:white;
+}
+.description span{
+    font-weight: bolder;
+}
+.description pre{
+    font-size:14px;
+    font-style: italic;
+    
+}
+.start{
+    text-align: center;
+    padding-top:30px;
+    
+}
+.start a{
+    border:1px solid whitesmoke;
+    border-radius: 20px;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:4px;
+    padding-bottom:4px;
+    margin-right:20px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 20px;
+    
+    
+}
+.start a:hover{
+    background-color:black;
+}
+
+.brief .formal{
+    float:right;
+    
+}
+.brief span{
+    padding-right:30px;
+    
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: auto;
+  }
+.brief{
+   
+    padding-bottom:20px;
+    background-color:black;
+    
+    
+    width:100%;
+}
+.brief img{
+    width:2%;
+}
+.brief a{
+    font-size: 40px;
+    text-decoration: none;
+    font-style: oblique;
+    padding-left:60px;
+    color:white;
+}
+.formal{
+    text-align:right;
+    padding-top:15px;
+}
+.formal a{
+    font-size: 20px;
+    color:white;
+    font-style: normal;
+}
+.music{
+    
+    padding-top:300px;
+    margin-bottom:50px;
+    color:white;
+    text-align:center;
+    font-weight: bolder;
+}
+.music h1{
+    font-size:50px;
+   
+}
+.music a {
+    border:2px solid white;
+    border-radius: 50px;
+    padding:5px 30px 5px 30px;
+    margin-right:10px;
+    margin-bottom:30px;
+    font-size: 30px;
+    color:white;
+    
+}
+.info{
+    background-color: rgba(245, 243, 243, 0.596);
+    text-align:center;
+    
+    padding-bottom: 250px;
+    
+}
+.info p{
+    padding-bottom: 50px;
+    color:back;
+    font-size: 25px;
+    opacity: 0.75;
+
+}
+.mid-info{
+    display:flex;
+}
+.sub-info{
+    flex: auto;
+}
+.music h1,a{
+    
+    text-decoration: none;
+    font-weight: bolder;
+    opacity:0.8;
+    
+}
+.top{
+    
+    background-image: url(images/smile_inscription_hand_hello_118043_1920x1080.jpg);
+    background-attachment: fixed;
+    background-color: rgba(204, 24, 159, 0.616);
+   
+   
+    
+}
+.mask{
+    background-color: rgba(10, 4, 7, 0.699);
+    height:100%;
+}
+
+.masks{
+    background-color: rgba(10, 4, 7, 0.799);
+    height:100%;
+}
+.formask{
+    background-color: rgba(34, 142, 243, 0.125);
+    padding-bottom: 50px;
+    padding-top:50px;
+    border-radius: 500px;
+}
+audio{
+    color:black;
+}
+.sub-info {
+    position: relative;
+    
+    color: white;
+  }
+.sub-info a{
+    position: absolute;
+    top: 50%; 
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.searchbar{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sub-info img{
+    filter: brightness(40%);
+}
+.sub-info img:hover{
+    filter: brightness(60%);
+    
+}
+.sub-info a:hover{
+    text-decoration: underline;
+}
+
+#playlist{
+    list-style: none;
+    margin-top: 100px;
+}
+#playlist li a{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+#playlist .current-song a{
+    color:yellow;
+    font-weight: bolder;
+}
+
+#playlistt{
+    list-style: none;
+    margin-top: 100px;
+}
+#playlistt li a{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+#playlistt .current-song a{
+    color:yellow;
+    font-weight: bolder;
+}
+
+#playlisty{
+    list-style: none;
+    margin-top: 100px;
+}
+#playlisty li a{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+#playlisty .current-song a{
+    color:yellow;
+    font-weight: bolder;
+}
+
+#playlists{
+    list-style: none;
+    margin-top: 100px;
+}
+#playlists li a{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+    
+}
+#playlists .current-song a{
+    color:yellow;
+    font-weight: bolder;
+}
+#audioPlayer{
+    width:100%;   
+}
+
+.info h1{
+    font-size:45px;
+    padding-top:120px;
+    opacity: 0.75;
+}
+#playsongs{
+    display:flex;
+}
+#playsongs ul{
+    flex:auto;
+}
+.songs-top{
+    background-color: rgba(10, 4, 4, 0.9);
+}
+#side-index a{
+    color:white;
+    font-weight: bolder;
+    list-style: none;
+}
+#side-index{
+    list-style: none;
+    padding-top: 100px;
+    background-color: black;
+    padding-top:20px;
+    padding-left: 45px;
+    padding-right: 75px; 
+    padding-bottom: 200px;
+   
+    
+}
+#border{
+    border-top: 1px solid white;
+    padding-top:20px;
+}
+#hsongs h1{
+  padding-left:50px;
+  color:white;
+  font-size:30px;
+  
+}
+
+ul li{
+    padding-bottom:10px;
+   
+}
+.aboutus h1,hr,pre{
+    opacity: 0.78;
+}
+.aboutus h1{
+    margin-left: 55px;
+    margin-top:35px;
+}
+.aboutus hr{
+    width:90%;
+}
+
+.last-content{
+    padding-top:20px;
+    padding-right:100px;
+    padding-left:80px;
+    color:white;
+    background-color:rgba(10, 4, 4, 0.999);
+ }
+ 
+ .last-content a{
+     text-decoration: none;
+     color:white;
+ }
+ .last-content h1{
+     
+     font-size:25px;
+     
+     color:white;
+     
+ }
+ .footer-content{
+     padding-top:150px;
+     display:flex;
+     margin-left: 0;
+     margin-right: 0;
+    
+     
+    
+ }
+ .last-content sub{
+     font-size: 15px;
+     
+ }
+ .sub-info img{
+     border-radius: 30px;
+ }
+ .im{
+     
+     position: relative;
+     
+     
+ }
+ .imn img{
+     filter: brightness(60%);
+     width:100%;
+     
+     background-attachment: fixed;
+     
+ }
+.imn{
+    background-size: contain;
+    padding-bottom:200px;
+    
+}
+
+
+ .bright h1{
+position: absolute;
+top: 5%; 
+left: 30%;
+  color:rgba(245, 243, 243, 0.596);
+  opacity: 0.9;
+  transform: translate(-35%, 60%);
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Gotu', sans-serif;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+
+  
+}
+.bright p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    color:rgba(245, 243, 243, 0.596);
+    opacity: 0.9;
+    transform: translate(-75%, 250%);
+    font-size:20px;
+    font-family: 'Gotu', sans-serif;
+
+}
+.the-end{
+    height:300px;
+}
+
+.isnear{
+    display: flex;
+    background-image: url(images/black-background-pattern-3.jpg);
+    
+    height:100%;
+}
+.again{
+    display:flex;
+    padding-left:120px;
+    
+    
+    
+}
+.again a{
+    padding-top: 130px;
+    padding-bottom:100px;
+}
+.yet ul{
+    padding-left:180px;
+    padding-top:90px;
+}
+.yet.fill ul{
+    padding-right:350px;
+}
+.yet ul,a{
+    color:white;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
